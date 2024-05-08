@@ -1,0 +1,82 @@
+body {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: left;
+}
+
+#projects > *:not(h1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#smiley {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project h2 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+}
+
+.project p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}

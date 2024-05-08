@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hi guys</title>
+  </head>
+  <body>
+    <h1 id="hero">
+      Hey, I'm FujiwaraChoki!
+      <img
+        id="smiley"
+        src="https://cdn.pixabay.com/photo/2023/02/13/22/54/smiley-7788483_1280.png"
+        alt="Smiley"
+      />
+    </h1>
+    <div id="me">
+      <p>
+        I'm a wanna-be programmer and I like to create stuff with code and share
+        it with
+        <a href="https://www.youtube.com/watch?v=VtzvlXL9gXk" target="_blank"
+          >za warudo</a
+        >.
+      </p>
+      <p>
+        Huge fan of astrophysics, in fact, that is because of
+        <a href="https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)"
+          >Steins;Gate
+        </a>
+        (I promise I'm not cringe)
+      </p>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <div class="project">
+            <a
+              href="https://github.com/FujiwaraChoki/MoneyPrinter"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                alt="Avatar"
+              />
+            </a>
+            <div class="project-info">
+              <h2>MoneyPrinter</h2>
+              <p>
+                The thingy I'm most famous for (maybe).
+                <br />
+                FOSS bot that automates YT Shorts.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project">
+            <a href="https://github.com/FujiwaraChoki/BlxdMoon" target="_blank">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                alt="Avatar"
+              />
+            </a>
+            <div class="project-info">
+              <h2>BlxdMoon</h2>
+              <p>
+                Remote-Access-Tool (RAT) written in C only!!<br />
+                Just for educational purposes 🙈
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project">
+            <a href="https://github.com/FujiwaraChoki/wds" target="_blank">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                alt="Avatar"
+              />
+            </a>
+            <div class="project-info">
+              <h2>War-Drone-System</h2>
+              <p>
+                This is a war drone simulation software.<br />
+                Done it for fun and to learn more about modern warfare.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project">
+            <a
+              href="https://github.com/FujiwaraChoki/BytrixLang"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                alt="Avatar"
+              />
+            </a>
+            <div class="project-info">
+              <h2>BytrixLang</h2>
+              <p>
+                Trashy programming language (crazy simple).<br />
+                Written in C++.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <p>
+            More projects on my
+            <a href="https://github.com/FujiwaraChoki" target="_blank"
+              >GitHub</a
+            >
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div id="contact">
+      <h2>Foota🦶</h2>
+      <p>
+        See me do weird projects on
+        <a href="https://www.youtube.com/@fuji_codes" target="_blank">YouTube</a
+        >!
+      </p>
+      <p>
+        Reach me by Email: <b>fuji@fuji.codes</b>
+        <button onclick="copyMail()">Copy</button>
+      </p>
+    </div>
+    <script>
+      const copyMail = () => {
+        navigator.clipboard.writeText("fuji@fuji.codes");
+        alert("Email copied to clipboard!");
+      };
+    </script>
+  </body>
+</html>
